@@ -56,6 +56,10 @@ sudo apt install -y \
     cmake
 
 # Install Buildozer
+
+# Cloning Buildozer repository directly to the HOME directory causes the
+# AttributeError 'Namespace' object has no attribute 'ignore_setup_py'.
+# So Buildozer repository should be cloned to any directory except HOME 
 mkdir ~/buildozer-repo
 cd ~/buildozer-repo
 
