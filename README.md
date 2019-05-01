@@ -47,4 +47,41 @@ The script was successfully tested with Xubuntu 18.04 and Lubuntu 18.04. The tes
 
 
 WARNING.
-With manual installation of the Buildozer via cloning its repository, pay attention to clone the Buildozer repository in any directory except HOME directory. Otherwise the error "**AttributeError 'Namespace' object has no attribute 'ignore-setup_py'**" will occur due importing modules conflicts.
+With manual installation of the Buildozer via cloning its repository, pay attention to clone the Buildozer repository to any directory except HOME directory. Otherwise the error "**AttributeError 'Namespace' object has no attribute 'ignore-setup_py'**" will occur probably due importing modules conflicts.
+
+____________
+
+## Buildozer Virtual Machine
+
+The current virtual machine allow
+you to have a ready to use VM for building Android application.
+
+### Download Buildozer VirtualBox Machine:
+
+Lubuntu 18.04 Virtual machine (Unziped size is about **13 Gb**):
+
+1. [Yandex.Disk - 4.9 Gb](https://yadi.sk/d/P8Vw_2xXLJKNCA)
+
+
+
+
+### Using shared folders
+
+1. Create a folder on your host machine.
+
+2. In the Virtualbox menu: 'Devices' -> 'Shared folders' -> 'Shared folders settings...' click on the small button at the right side 'Adds new shared folder'
+
+3. Specify the folder path on your host machine
+
+4. Check 'Auto-mount' and 'Make permanent' boxes.
+
+5. Power off your guest machine
+
+6. Start the guest machine again and shared folder should appear on the Desktop.
+
+7. Done
+
+
+#### If Android dependencies are outdated execute:
+
+```buildozer android update```

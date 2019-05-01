@@ -58,8 +58,8 @@ sudo apt install -y \
 # Install Buildozer
 
 # Cloning Buildozer repository directly to the HOME directory causes the
-# AttributeError 'Namespace' object has no attribute 'ignore_setup_py'.
-# So Buildozer repository should be cloned to any directory except HOME 
+# AttributeError 'Namespace' object has no attribute 'ignore_setup_py' error when trying to build apk file.
+# So Buildozer repository should be cloned to any directory except HOME
 mkdir ~/buildozer-repo
 cd ~/buildozer-repo
 
