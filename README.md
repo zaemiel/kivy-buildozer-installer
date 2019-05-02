@@ -63,6 +63,12 @@ Lubuntu 18.04 Virtual machine (Unziped size is about **13 Gb**):
 1. [Yandex.Disk - 4.9 Gb](https://yadi.sk/d/P8Vw_2xXLJKNCA)
 
 
+#### Superuser credentials:
+
+Login: kivy
+
+Password: kivy
+
 
 
 ### Using shared folders
