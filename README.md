@@ -47,7 +47,6 @@ The script was successfully tested with Xubuntu 18.04 and Lubuntu 18.04. The tes
 
 
 **WARNING**
-
 With manual installation of the Buildozer via cloning its repository, pay attention to clone the Buildozer repository to any directory except HOME directory. Otherwise the error "**AttributeError 'Namespace' object has no attribute 'ignore-setup_py'**" will occur probably due importing modules conflicts.
 
 ____________
@@ -71,7 +70,7 @@ Login: kivy
 Password: kivy
 
 
-####
+#### Free space
 To free a disk space you can delete test app folder, before you start a new buildozer compilation
  
 
