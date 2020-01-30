@@ -24,6 +24,7 @@ The complete list of Buildozer dependencies is:
 -    **libssl-dev**
 -    **autoconf**
 -    **autotools-dev**
+-    **automake**
 -    cmake
 
 

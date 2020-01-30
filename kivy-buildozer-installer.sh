@@ -52,7 +52,8 @@ sudo apt install -y \
     libffi-dev \
     libssl-dev \
     autoconf \
-    autotools-dev
+    automake \
+    autotools-dev \
     cmake
 
 # Install Buildozer
