@@ -51,8 +51,10 @@ sudo apt install -y \
     libltdl-dev \
     libffi-dev \
     libssl-dev \
+    libtool \
     autoconf \
     automake \
+    pkgconf \
     autotools-dev \
     cmake
 
